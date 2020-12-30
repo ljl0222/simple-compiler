@@ -1,0 +1,26 @@
+int  program()
+{
+	int i;
+	int j;
+	int a;
+	int b;
+	int c;
+	a=3;
+	b=4;
+	c=2;
+	i=0; 	
+	if(a>(b+c))
+	{
+		j=a+(b*c+1);
+	}
+	else
+	{
+		j=a;
+	}
+	while(i<=100)
+	{
+		i=j*2;
+	}
+	return i;
+}
+#
