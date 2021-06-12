@@ -27,7 +27,7 @@ LexAnalyst::LexAnalyst(const char* path)
 char LexAnalyst::getChar()
 {
 	char tempChar;
-	while (input >> tempChar)
+	while (tempChar = input.get())
 	{
 		if (tempChar == ' ' || tempChar == '\t')
 			continue;
@@ -146,7 +146,7 @@ Token LexAnalyst::getToken()
 	}
 	else if (c == '#')
 		return Token(ENDFILE, "#");
-	else if (c == '\n') // 然后发现这里好像不行，上面采用流输入的时候无法读出换行
+	else if (c == '\n') 
 		return Token(NEXTL, "\\n");
 	// 进入到这里，说明是字母或数字或乱码（乱码就错了，else判断掉）
 	else
@@ -202,7 +202,7 @@ Token LexAnalyst::getToken()
 		}
 		else
 		{
-			cerr << "无法判断的符号" << endl;
+			cerr << "无法判断的符号"  << c << endl;
 			exit(ERROR);
 		}
 	}

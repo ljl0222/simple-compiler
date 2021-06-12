@@ -1,4 +1,4 @@
-P ::= declare_list
+P ::= N declare_list
 declare_list ::= declare declare_list
 declare_list ::= declare
 declare ::= int ID M A function_declare

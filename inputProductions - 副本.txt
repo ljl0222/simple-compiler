@@ -1,0 +1,36 @@
+P ::= Program
+Program ::= Type ID ( ) SentenceBlock
+Type ::= int
+Type ::= void
+SentenceBlock ::= { Declare Sentences }
+Declare ::= 
+Declare ::= VDeclare ; Declare
+VDeclare ::= int ID
+Sentences ::= Sentence
+Sentences ::= Sentence Sentences
+Sentence ::= IfSentence
+Sentence ::= WhileSentence
+Sentence ::= ReturnSentence
+Sentence ::= AssignSentence
+AssignSentence ::= ID = Expression ;
+ReturnSentence ::= return ;
+ReturnSentence ::= return Expression ;
+WhileSentence ::= while ( Expression ) SentenceBlock
+IfSentence ::= if ( Expression ) SentenceBlock
+IfSentence ::= if ( Expression ) SentenceBlock else SentenceBlock
+Expression ::= AddExpression
+Expression ::= AddExpression > AddExpression
+Expression ::= AddExpression >= AddExpression
+Expression ::= AddExpression < AddExpression
+Expression ::= AddExpression <= AddExpression
+Expression ::= AddExpression == AddExpression
+Expression ::= AddExpression != AddExpression
+AddExpression ::= Item
+AddExpression ::= Item + AddExpression
+AddExpression ::= Item - AddExpression
+Item ::= Factor
+Item ::= Factor * Item
+Item ::= Factor / Item
+Factor ::= num
+Factor ::= ID
+Factor ::= ( Expression )

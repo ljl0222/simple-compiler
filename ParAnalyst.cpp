@@ -82,6 +82,34 @@ Behavior::Behavior(Behave bh, int S)
 	this->nextS = S;
 }
 
+Variable::Variable(string name, Vtype type)
+{
+	this->name = name;
+	this->type = type;
+}
+
+Variable::Variable(string name, Vtype type, int depth)
+{
+	this->name = name;
+	this->type = type;
+	this->depth = depth;
+}
+
+Function::Function(string name, Vtype type, list<Vtype> parType)
+{
+	this->name = name;
+	this->type = type;
+	this->parType.assign(parType.begin(), parType.end());
+}
+
+Function::Function(string name, Vtype type, list<Vtype> parType, int enter)
+{
+	this->name = name;
+	this->type = type;
+	this->parType.assign(parType.begin(), parType.end());
+	this->enter = enter;
+}
+
 Status ParAnalyst::openInputProductions(string path)
 {
 	inputProductions.open(path, ios::in);
@@ -102,6 +130,27 @@ ParAnalyst::ParAnalyst(string path)
 {
 	openInputProductions(path);
 }
+
+Function* ParAnalyst::findFunction(string name)
+{
+	for (vector<Function>::iterator i = functionTable.begin(); i != functionTable.end(); i++) {
+		if (i->name == name) {
+			return &(*i);
+		}
+	}
+	return nullptr;
+}
+
+Variable* ParAnalyst::findVariable(string name)
+{
+	for (vector<Variable>::iterator i = variableTable.begin(); i != variableTable.end(); i++) {
+		if (i->name == name) {
+			return &(*i);
+		}
+	}
+	return nullptr;
+}
+
 
 // 读产生式
 Status ParAnalyst::getProductions()
@@ -695,6 +744,9 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 
 	int T_temp = 0;
 
+	line = 0;
+	level = 0;
+
 	list<Token>::iterator itToken = LexRes.begin();
 	while (itToken != LexRes.end())
 	{
@@ -706,6 +758,13 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 		if (itToken->first == LCOMMENT || itToken->first == LPCOMMENT || itToken->first == RPCOMMENT || itToken->first == PCOMMENT)
 		{
 			itToken++;
+			continue;
+		}
+
+		if (itToken->first == NEXTL)
+		{
+			itToken++;
+			line++;
 			continue;
 		}
 
@@ -742,7 +801,8 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 			if (Bh.nextS == 0) // P ::= N declare_list
 			{
 				Symbol _declare_list = pop();
-				// Symbol _N = pop(); 
+				Symbol _N = pop(); 
+				// 这里其实执行不到，直接就从accept出去了
 				// 这里我觉得是这样子的
 				// 首先我们这里的N用于定义函数调用间的关系，找到函数出口
 				// 这里由于我们不需要考虑子函数的过程调用，因此我觉得似乎不需要这里的N，修改产生式
@@ -764,12 +824,18 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 				Symbol _M = pop();
 				Symbol _ID = pop();
 				Symbol _int = pop();
+
+				// 加入function表当中
+				functionTable.push_back(Function(_ID.name, Vint, _function_declare.parType, _M.quad));
 			}
 			else if (Bh.nextS == 4) // declare ::= int ID var_declare
 			{
 				Symbol _var_declare = pop();
 				Symbol _ID = pop();
 				Symbol _int = pop();
+
+				// 加入variable表当中
+				variableTable.push_back(Variable(_ID.name, Vint, level));
 			}
 			else if (Bh.nextS == 5) // declare ::= void ID M A function_declare
 			{
@@ -778,10 +844,13 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 				Symbol _M = pop();
 				Symbol _ID = pop();
 				Symbol _void = pop();
+
+				// 加入function表当中
+				functionTable.push_back(Function(_ID.name, Vvoid, _function_declare.parType, _M.quad));
 			}
 			else if (Bh.nextS == 6) // A ::= 
 			{
-
+				level++;
 			}
 			else if (Bh.nextS == 7) // var_declare ::= ;
 			{
@@ -794,11 +863,13 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 				Symbol _parameter = pop();
 				Symbol _lbracket = pop();
 				// 函数
+				Symbolpushed.parType.assign(_parameter.parType.begin(), _parameter.parType.end());
 			}
 			else if (Bh.nextS == 9) // parameter ::= parameter_list
 			{
 				Symbol _parameter_list = pop();
 				// 函数
+				Symbolpushed.parType.assign(_parameter_list.parType.begin(), _parameter_list.parType.end());
 			}
 			else if (Bh.nextS == 10) // parameter ::= 
 			{
@@ -808,6 +879,7 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 			{
 				Symbol _param = pop();
 				// 函数
+				Symbolpushed.parType.push_back(Vint);
 			}
 			else if (Bh.nextS == 12) // parameter_list ::= param , parameter_list
 			{
@@ -815,13 +887,17 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 				Symbol _comma = pop();
 				Symbol _param = pop(); 
 				// 函数
+				_parameter_list.parType.push_front(Vint);
+				Symbolpushed.parType.assign(_parameter_list.parType.begin(), _parameter_list.parType.end());
 			}
 			else if (Bh.nextS == 13) // param ::= int ID
 			{
 				Symbol _ID = pop();
 				Symbol _int = pop();
+				variableTable.push_back(Variable(_ID.name, Vint, level));
 				code.emit(Quaternion("get", "_", "_", _ID.name));
 			}
+			// 这个地方需要注意局部变量的销毁
 			else if (Bh.nextS == 14) // sentence_block ::= { inner_declare sentence_list }
 			{
 				Symbol _rbrace = pop();
@@ -829,6 +905,21 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 				Symbol _inner_declare = pop();
 				Symbol _lbrace = pop();
 				Symbolpushed.nextlist = _sentence_list.nextlist;
+
+				// 局部变量的销毁
+				level--; // 首先当前层级需要做减法
+				int delNum = 0;
+				for (vector<Variable>::reverse_iterator r = variableTable.rbegin(); r != variableTable.rend(); r++) {
+					if (r->depth > level) {
+						delNum++;
+						continue;
+					}
+					break; // 检查到不属于这个层级的就直接退出去
+				}
+				for (int cnt = 0; cnt < delNum; cnt++) {
+					variableTable.pop_back();
+
+				}
 			}
 			else if (Bh.nextS == 15) // inner_declare ::= 
 			{
@@ -844,6 +935,7 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 			{
 				Symbol _ID = pop();
 				Symbol _int = pop();
+				variableTable.push_back(Variable(_ID.name, Vint, level));
 			}
 			else if (Bh.nextS == 18) // sentence_list ::= sentence M sentence_list
 			{
@@ -883,6 +975,12 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 				Symbol _assign = pop();
 				Symbol _ID = pop();
 				code.emit(Quaternion("=", _expression.name, "_", _ID.name));
+
+				Variable* v = findVariable(_ID.name);
+				if (!v) {
+					cerr << "语法错误，第" << line << "行未声明的变量: " << _ID.name << endl;
+					exit(-1);
+				}
 			}
 			else if (Bh.nextS == 25) // return_sentence ::= return ;
 			{
@@ -941,6 +1039,7 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 			else if (Bh.nextS == 30) // N ::=  
 			{
 			;	Symbolpushed.nextlist.push_back(code.nextquad());
+				// cout << "***" << endl;
 				code.emit(Quaternion("j", "_", "_", "-1"));
 			}
 			else if (Bh.nextS == 31) // M ::=   
@@ -1050,6 +1149,7 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 			{
 				Symbol _num = pop();
 				Symbolpushed.name = _num.name;
+				
 			}
 			else if (Bh.nextS == 46) // factor ::= ( expression )    
 			{
@@ -1065,11 +1165,31 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 				Symbol _lbracket = pop();
 				Symbol _ID = pop();
 				// 函数
+
+				Function* Func = findFunction(_ID.name);
+				if (!Func) {
+					cerr << "语法错误，第" << line << "行未声明的函数: " << _ID.name << endl;
+					exit(-1);
+				}
+				else {
+					for (list<string>::iterator i = _argument_list.par.begin(); i != _argument_list.par.end(); i++) {
+						code.emit(Quaternion("par", *i, "_", "_"));
+					}
+					Symbolpushed.name = "T" + to_string(T_temp);
+					T_temp++;
+					code.emit(Quaternion("call", _ID.name, "_", "_"));
+					code.emit(Quaternion("=", "@RETURN_PLACE", "_", Symbolpushed.name));
+				}
 			}
 			else if (Bh.nextS == 48) // factor ::= ID     
 			{
 				Symbol _ID = pop();
 				Symbolpushed.name = _ID.name;
+				Variable* v = findVariable(_ID.name);
+				if (!v) {
+					cerr << "语法错误，第" << line << "行未声明的变量: " << _ID.name << endl;
+					exit(-1);
+				}
 			}
 			else if (Bh.nextS == 49) // argument_list ::=     
 			{
@@ -1079,6 +1199,7 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 			{
 				Symbol _expression = pop();
 				// 函数
+				Symbolpushed.par.push_back(_expression.name);
 			}
 			else if (Bh.nextS == 51) // argument_list ::= expression , argument_list    
 			{
@@ -1086,6 +1207,8 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 				Symbol _comma = pop();
 				Symbol _expression = pop();
 				// 函数
+				_argument_list.par.push_front(_expression.name);
+				Symbolpushed.par.assign(_argument_list.par.begin(), _argument_list.par.end());
 			}
 			else
 			{
@@ -1103,10 +1226,19 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 			StatusStack.push(GotoTb[GOTO(StatusStack.top(), p.lcontent)]);
 		}
 
+		// P :: = N declare_list
 		else if (Bh.bh == accept) // 接受
 		{
+			Function* f = findFunction("main");
+			if (!f) {
+				cout << "语法错误，缺少main函数" << endl;
+				exit(-1);
+			}
+			Symbol _declare_list = pop();
+			Symbol _N = pop();
 			cout << "accept!" << endl;
 			cout << "成功归约出目标结果，程序结束" << endl;
+			code.backpatch(_N.nextlist, f->enter);
 			code.outputCode();
 			code.outputCodeToFile();
 			break;
@@ -1120,6 +1252,23 @@ Status ParAnalyst::LRAnalyse(list<Token> LexRes)
 
 	}
 
+	// code.outputCode();
+	// code.outputCodeToFile();
+
 	return OK;
 }
 
+IntermediateCode* ParAnalyst::getIntermediateCode()
+{
+	return &code;
+}
+
+vector<pair<int, string> > ParAnalyst::getFunctionEnter()
+{
+	vector<pair<int, string> > funcEnter;
+	for (vector<Function>::iterator i = functionTable.begin(); i != functionTable.end(); i++) {
+		funcEnter.push_back(pair<int, string>(i->enter, i->name));
+	}
+	sort(funcEnter.begin(), funcEnter.end());
+	return funcEnter;
+}

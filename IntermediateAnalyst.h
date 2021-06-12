@@ -11,10 +11,19 @@ public:
 	Quaternion(string, string, string, string);
 };
 
+class BaseBlock
+{
+public:
+	string name;
+	vector<Quaternion> qCodes;
+	pair<int, int> ret;
+};
+
 class IntermediateCode
 {
 private:
 	vector<Quaternion> result;
+	map<string, vector<BaseBlock> > functionBlocks;
 public:
 	int T;
 	Status emit(Quaternion q);
@@ -22,5 +31,6 @@ public:
 	int nextquad();
 	Status outputCode();
 	Status outputCodeToFile();
-
+	Status divideBaseBlocks(vector<pair<int, string>> functionEnter);
+	Status outputBlocks();
 };

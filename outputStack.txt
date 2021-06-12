@@ -2,656 +2,1223 @@
 StatusStack:0 
 SymbolStack:# 
 ***********************Õ»¿Õ¼ä1***********************
-StatusStack:3 0 
-SymbolStack:int # 
-***********************Õ»¿Õ¼ä2***********************
-StatusStack:6 3 0 
-SymbolStack:ID int # 
-***********************Õ»¿Õ¼ä3***********************
-StatusStack:8 6 3 0 
-SymbolStack:M ID int # 
-***********************Õ»¿Õ¼ä4***********************
-StatusStack:12 8 6 3 0 
-SymbolStack:A M ID int # 
-***********************Õ»¿Õ¼ä5***********************
-StatusStack:15 12 8 6 3 0 
-SymbolStack:( A M ID int # 
-***********************Õ»¿Õ¼ä6***********************
-StatusStack:17 15 12 8 6 3 0 
-SymbolStack:parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä7***********************
-StatusStack:21 17 15 12 8 6 3 0 
-SymbolStack:) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä8***********************
-StatusStack:25 21 17 15 12 8 6 3 0 
-SymbolStack:{ ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä9***********************
-StatusStack:29 25 21 17 15 12 8 6 3 0 
-SymbolStack:int { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä10***********************
-StatusStack:41 29 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID int { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä11***********************
-StatusStack:28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä12***********************
-StatusStack:40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä13***********************
-StatusStack:29 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:int ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä14***********************
-StatusStack:41 29 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID int ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä15***********************
-StatusStack:28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä16***********************
-StatusStack:40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä17***********************
-StatusStack:29 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:int ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä18***********************
-StatusStack:41 29 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID int ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä19***********************
-StatusStack:28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä20***********************
-StatusStack:40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä21***********************
-StatusStack:29 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:int ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä22***********************
-StatusStack:41 29 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID int ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä23***********************
-StatusStack:28 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä24***********************
-StatusStack:40 28 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:; inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä25***********************
-StatusStack:29 40 28 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:int ; inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä26***********************
-StatusStack:41 29 40 28 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID int ; inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä27***********************
-StatusStack:28 40 28 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä28***********************
-StatusStack:40 28 40 28 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:; inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä29***********************
-StatusStack:55 40 28 40 28 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä30***********************
-StatusStack:55 40 28 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä31***********************
-StatusStack:55 40 28 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä32***********************
-StatusStack:55 40 28 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä33***********************
-StatusStack:55 40 28 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_declare ; inner_var_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä34***********************
-StatusStack:27 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä35***********************
-StatusStack:36 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä36***********************
-StatusStack:44 36 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:= ID inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä37***********************
-StatusStack:50 44 36 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:num = ID inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä38***********************
-StatusStack:49 44 36 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor = ID inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä39***********************
-StatusStack:48 44 36 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item = ID inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä40***********************
-StatusStack:47 44 36 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression = ID inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä41***********************
-StatusStack:57 44 36 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression = ID inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä42***********************
-StatusStack:79 57 44 36 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:; expression = ID inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä43***********************
-StatusStack:35 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:assign_sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä44***********************
-StatusStack:31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä45***********************
-StatusStack:43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä46***********************
-StatusStack:36 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä47***********************
-StatusStack:44 36 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:= ID M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä48***********************
-StatusStack:50 44 36 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:num = ID M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä49***********************
-StatusStack:49 44 36 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor = ID M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä50***********************
-StatusStack:48 44 36 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item = ID M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä51***********************
-StatusStack:47 44 36 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression = ID M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä52***********************
-StatusStack:57 44 36 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression = ID M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä53***********************
-StatusStack:79 57 44 36 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:; expression = ID M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä54***********************
-StatusStack:35 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:assign_sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä55***********************
-StatusStack:31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä56***********************
-StatusStack:43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä57***********************
-StatusStack:36 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä58***********************
-StatusStack:44 36 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:= ID M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä59***********************
-StatusStack:50 44 36 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:num = ID M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä60***********************
-StatusStack:49 44 36 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor = ID M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä61***********************
-StatusStack:48 44 36 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item = ID M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä62***********************
-StatusStack:47 44 36 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression = ID M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä63***********************
-StatusStack:57 44 36 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression = ID M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä64***********************
-StatusStack:79 57 44 36 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:; expression = ID M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä65***********************
-StatusStack:35 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:assign_sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä66***********************
-StatusStack:31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä67***********************
-StatusStack:43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä68***********************
-StatusStack:36 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä69***********************
-StatusStack:44 36 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:= ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä70***********************
-StatusStack:50 44 36 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:num = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä71***********************
-StatusStack:49 44 36 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä72***********************
-StatusStack:48 44 36 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä73***********************
-StatusStack:47 44 36 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä74***********************
-StatusStack:57 44 36 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä75***********************
-StatusStack:79 57 44 36 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:; expression = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä76***********************
-StatusStack:35 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:assign_sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä77***********************
-StatusStack:31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä78***********************
-StatusStack:43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä79***********************
-StatusStack:39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä80***********************
-StatusStack:54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä81***********************
-StatusStack:75 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä82***********************
-StatusStack:71 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä83***********************
-StatusStack:70 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä84***********************
-StatusStack:69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä85***********************
-StatusStack:95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:> add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä86***********************
-StatusStack:128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä87***********************
-StatusStack:75 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä88***********************
-StatusStack:71 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä89***********************
-StatusStack:70 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä90***********************
-StatusStack:101 70 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:+ item ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä91***********************
-StatusStack:75 101 70 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID + item ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä92***********************
-StatusStack:71 101 70 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor + item ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä93***********************
-StatusStack:70 101 70 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item + item ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä94***********************
-StatusStack:135 101 70 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression + item ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä95***********************
-StatusStack:69 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä96***********************
-StatusStack:167 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä97***********************
-StatusStack:196 167 128 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:) expression ( > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä98***********************
-StatusStack:126 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä99***********************
-StatusStack:125 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä100***********************
-StatusStack:124 95 69 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression > add_expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä101***********************
-StatusStack:78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä102***********************
-StatusStack:117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä103***********************
-StatusStack:156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä104***********************
-StatusStack:189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:{ A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä105***********************
-StatusStack:207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä106***********************
-StatusStack:36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä107***********************
-StatusStack:44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:= ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä108***********************
-StatusStack:52 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä109***********************
-StatusStack:49 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä110***********************
-StatusStack:48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä111***********************
-StatusStack:65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:+ item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä112***********************
-StatusStack:51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä113***********************
-StatusStack:75 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä114***********************
-StatusStack:71 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä115***********************
-StatusStack:103 71 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:* factor ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä116***********************
-StatusStack:75 103 71 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID * factor ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä117***********************
-StatusStack:71 103 71 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor * factor ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä118***********************
-StatusStack:137 103 71 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item * factor ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä119***********************
-StatusStack:70 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä120***********************
-StatusStack:101 70 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:+ item ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä121***********************
-StatusStack:72 101 70 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:num + item ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä122***********************
-StatusStack:71 101 70 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor + item ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä123***********************
-StatusStack:70 101 70 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item + item ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä124***********************
-StatusStack:135 101 70 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression + item ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä125***********************
-StatusStack:69 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä126***********************
-StatusStack:74 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä127***********************
-StatusStack:106 74 51 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:) expression ( + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä128***********************
-StatusStack:49 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä129***********************
-StatusStack:48 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä130***********************
-StatusStack:91 65 48 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression + item = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä131***********************
-StatusStack:47 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä132***********************
-StatusStack:57 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä133***********************
-StatusStack:79 57 44 36 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:; expression = ID inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä134***********************
-StatusStack:35 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:assign_sentence inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä135***********************
-StatusStack:31 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä136***********************
-StatusStack:217 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä137***********************
-StatusStack:221 217 207 189 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:} sentence_list inner_declare { A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä138***********************
-StatusStack:190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä139***********************
-StatusStack:208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä140***********************
-StatusStack:218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä141***********************
-StatusStack:222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä142***********************
-StatusStack:224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä143***********************
-StatusStack:205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:{ A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä144***********************
-StatusStack:216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä145***********************
-StatusStack:36 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä146***********************
-StatusStack:44 36 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:= ID inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä147***********************
-StatusStack:52 44 36 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä148***********************
-StatusStack:49 44 36 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä149***********************
-StatusStack:48 44 36 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä150***********************
-StatusStack:47 44 36 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä151***********************
-StatusStack:57 44 36 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä152***********************
-StatusStack:79 57 44 36 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:; expression = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä153***********************
-StatusStack:35 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:assign_sentence inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä154***********************
-StatusStack:31 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä155***********************
-StatusStack:220 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä156***********************
-StatusStack:223 220 216 205 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:} sentence_list inner_declare { A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä157***********************
-StatusStack:225 224 222 218 208 190 156 117 78 54 39 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_block A M else N sentence_block A ) expression ( if M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä158***********************
-StatusStack:32 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:if_sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä159***********************
-StatusStack:31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä160***********************
-StatusStack:43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä161***********************
-StatusStack:38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä162***********************
-StatusStack:53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä163***********************
-StatusStack:77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä164***********************
-StatusStack:75 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä165***********************
-StatusStack:71 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä166***********************
-StatusStack:70 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä167***********************
-StatusStack:69 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä168***********************
-StatusStack:99 69 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:<= add_expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä169***********************
-StatusStack:127 99 69 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:num <= add_expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä170***********************
-StatusStack:126 99 69 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor <= add_expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä171***********************
-StatusStack:125 99 69 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item <= add_expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä172***********************
-StatusStack:133 99 69 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression <= add_expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä173***********************
-StatusStack:116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä174***********************
-StatusStack:155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä175***********************
-StatusStack:188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä176***********************
-StatusStack:205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:{ A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä177***********************
-StatusStack:216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä178***********************
-StatusStack:36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä179***********************
-StatusStack:44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:= ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä180***********************
-StatusStack:52 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä181***********************
-StatusStack:49 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä182***********************
-StatusStack:67 49 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:* factor = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä183***********************
-StatusStack:50 67 49 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:num * factor = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä184***********************
-StatusStack:49 67 49 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor * factor = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä185***********************
-StatusStack:93 67 49 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item * factor = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä186***********************
-StatusStack:48 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä187***********************
-StatusStack:47 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä188***********************
-StatusStack:57 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä189***********************
-StatusStack:79 57 44 36 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:; expression = ID inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä190***********************
-StatusStack:35 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:assign_sentence inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä191***********************
-StatusStack:31 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä192***********************
-StatusStack:220 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä193***********************
-StatusStack:223 220 216 205 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:} sentence_list inner_declare { A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä194***********************
-StatusStack:206 188 155 116 77 53 38 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_block A ) expression ( M while M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä195***********************
-StatusStack:33 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:while_sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä196***********************
-StatusStack:31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä197***********************
-StatusStack:43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä198***********************
-StatusStack:37 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:return M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä199***********************
-StatusStack:52 37 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:ID return M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä200***********************
-StatusStack:49 37 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:factor return M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä201***********************
-StatusStack:48 37 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:item return M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä202***********************
-StatusStack:47 37 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:add_expression return M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä203***********************
-StatusStack:46 37 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:expression return M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä204***********************
-StatusStack:58 46 37 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:; expression return M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä205***********************
-StatusStack:34 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:return_sentence M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä206***********************
-StatusStack:31 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä207***********************
-StatusStack:56 43 31 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list M sentence M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä208***********************
-StatusStack:56 43 31 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list M sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä209***********************
-StatusStack:56 43 31 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä210***********************
-StatusStack:56 43 31 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä211***********************
-StatusStack:56 43 31 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list M sentence M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä212***********************
-StatusStack:56 43 31 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list M sentence inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä213***********************
-StatusStack:30 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_list inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä214***********************
-StatusStack:42 30 27 25 21 17 15 12 8 6 3 0 
-SymbolStack:} sentence_list inner_declare { ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä215***********************
-StatusStack:24 21 17 15 12 8 6 3 0 
-SymbolStack:sentence_block ) parameter ( A M ID int # 
-***********************Õ»¿Õ¼ä216***********************
-StatusStack:14 12 8 6 3 0 
-SymbolStack:function_declare A M ID int # 
-***********************Õ»¿Õ¼ä217***********************
-StatusStack:2 0 
-SymbolStack:declare # 
-***********************Õ»¿Õ¼ä218***********************
 StatusStack:1 0 
-SymbolStack:declare_list # 
+SymbolStack:N # 
+***********************Õ»¿Õ¼ä2***********************
+StatusStack:4 1 0 
+SymbolStack:int N # 
+***********************Õ»¿Õ¼ä3***********************
+StatusStack:7 4 1 0 
+SymbolStack:ID int N # 
+***********************Õ»¿Õ¼ä4***********************
+StatusStack:11 7 4 1 0 
+SymbolStack:; ID int N # 
+***********************Õ»¿Õ¼ä5***********************
+StatusStack:11 7 4 1 0 
+SymbolStack:; ID int N # 
+***********************Õ»¿Õ¼ä6***********************
+StatusStack:10 7 4 1 0 
+SymbolStack:var_declare ID int N # 
+***********************Õ»¿Õ¼ä7***********************
+StatusStack:3 1 0 
+SymbolStack:declare N # 
+***********************Õ»¿Õ¼ä8***********************
+StatusStack:4 3 1 0 
+SymbolStack:int declare N # 
+***********************Õ»¿Õ¼ä9***********************
+StatusStack:7 4 3 1 0 
+SymbolStack:ID int declare N # 
+***********************Õ»¿Õ¼ä10***********************
+StatusStack:11 7 4 3 1 0 
+SymbolStack:; ID int declare N # 
+***********************Õ»¿Õ¼ä11***********************
+StatusStack:11 7 4 3 1 0 
+SymbolStack:; ID int declare N # 
+***********************Õ»¿Õ¼ä12***********************
+StatusStack:10 7 4 3 1 0 
+SymbolStack:var_declare ID int declare N # 
+***********************Õ»¿Õ¼ä13***********************
+StatusStack:3 3 1 0 
+SymbolStack:declare declare N # 
+***********************Õ»¿Õ¼ä14***********************
+StatusStack:4 3 3 1 0 
+SymbolStack:int declare declare N # 
+***********************Õ»¿Õ¼ä15***********************
+StatusStack:7 4 3 3 1 0 
+SymbolStack:ID int declare declare N # 
+***********************Õ»¿Õ¼ä16***********************
+StatusStack:9 7 4 3 3 1 0 
+SymbolStack:M ID int declare declare N # 
+***********************Õ»¿Õ¼ä17***********************
+StatusStack:13 9 7 4 3 3 1 0 
+SymbolStack:A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä18***********************
+StatusStack:16 13 9 7 4 3 3 1 0 
+SymbolStack:( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä19***********************
+StatusStack:21 16 13 9 7 4 3 3 1 0 
+SymbolStack:int ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä20***********************
+StatusStack:24 21 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID int ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä21***********************
+StatusStack:20 16 13 9 7 4 3 3 1 0 
+SymbolStack:param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä22***********************
+StatusStack:23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:, param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä23***********************
+StatusStack:21 23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:int , param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä24***********************
+StatusStack:24 21 23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID int , param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä25***********************
+StatusStack:20 23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:param , param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä26***********************
+StatusStack:23 20 23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:, param , param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä27***********************
+StatusStack:21 23 20 23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:int , param , param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä28***********************
+StatusStack:24 21 23 20 23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID int , param , param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä29***********************
+StatusStack:20 23 20 23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:param , param , param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä30***********************
+StatusStack:27 23 20 23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:parameter_list , param , param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä31***********************
+StatusStack:27 23 20 16 13 9 7 4 3 3 1 0 
+SymbolStack:parameter_list , param ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä32***********************
+StatusStack:19 16 13 9 7 4 3 3 1 0 
+SymbolStack:parameter_list ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä33***********************
+StatusStack:18 16 13 9 7 4 3 3 1 0 
+SymbolStack:parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä34***********************
+StatusStack:22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä35***********************
+StatusStack:22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä36***********************
+StatusStack:26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:{ ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä37***********************
+StatusStack:26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:{ ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä38***********************
+StatusStack:30 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:int { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä39***********************
+StatusStack:42 30 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID int { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä40***********************
+StatusStack:29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä41***********************
+StatusStack:41 29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä42***********************
+StatusStack:41 29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä43***********************
+StatusStack:30 41 29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:int ; inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä44***********************
+StatusStack:42 30 41 29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID int ; inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä45***********************
+StatusStack:29 41 29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:inner_var_declare ; inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä46***********************
+StatusStack:41 29 41 29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä47***********************
+StatusStack:41 29 41 29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä48***********************
+StatusStack:56 41 29 41 29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:inner_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä49***********************
+StatusStack:56 41 29 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:inner_declare ; inner_var_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä50***********************
+StatusStack:28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä51***********************
+StatusStack:37 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä52***********************
+StatusStack:45 37 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:= ID inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä53***********************
+StatusStack:51 45 37 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:num = ID inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä54***********************
+StatusStack:50 45 37 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor = ID inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä55***********************
+StatusStack:49 45 37 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item = ID inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä56***********************
+StatusStack:48 45 37 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression = ID inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä57***********************
+StatusStack:58 45 37 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression = ID inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä58***********************
+StatusStack:80 58 45 37 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä59***********************
+StatusStack:80 58 45 37 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä60***********************
+StatusStack:36 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:assign_sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä61***********************
+StatusStack:32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä62***********************
+StatusStack:44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä63***********************
+StatusStack:40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä64***********************
+StatusStack:55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä65***********************
+StatusStack:76 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä66***********************
+StatusStack:72 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä67***********************
+StatusStack:71 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä68***********************
+StatusStack:70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä69***********************
+StatusStack:96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:> add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä70***********************
+StatusStack:129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä71***********************
+StatusStack:76 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä72***********************
+StatusStack:72 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä73***********************
+StatusStack:71 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä74***********************
+StatusStack:102 71 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:+ item ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä75***********************
+StatusStack:76 102 71 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID + item ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä76***********************
+StatusStack:72 102 71 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor + item ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä77***********************
+StatusStack:71 102 71 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item + item ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä78***********************
+StatusStack:136 102 71 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression + item ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä79***********************
+StatusStack:70 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä80***********************
+StatusStack:168 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä81***********************
+StatusStack:197 168 129 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:) expression ( > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä82***********************
+StatusStack:127 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä83***********************
+StatusStack:126 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä84***********************
+StatusStack:125 96 70 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression > add_expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä85***********************
+StatusStack:79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä86***********************
+StatusStack:118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä87***********************
+StatusStack:118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä88***********************
+StatusStack:157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä89***********************
+StatusStack:190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:{ A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä90***********************
+StatusStack:190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:{ A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä91***********************
+StatusStack:208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä92***********************
+StatusStack:37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä93***********************
+StatusStack:45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:= ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä94***********************
+StatusStack:53 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä95***********************
+StatusStack:50 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä96***********************
+StatusStack:49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä97***********************
+StatusStack:66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:+ item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä98***********************
+StatusStack:52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä99***********************
+StatusStack:76 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä100***********************
+StatusStack:72 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä101***********************
+StatusStack:104 72 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:* factor ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä102***********************
+StatusStack:76 104 72 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID * factor ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä103***********************
+StatusStack:72 104 72 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor * factor ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä104***********************
+StatusStack:138 104 72 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item * factor ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä105***********************
+StatusStack:71 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä106***********************
+StatusStack:102 71 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:+ item ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä107***********************
+StatusStack:73 102 71 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:num + item ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä108***********************
+StatusStack:72 102 71 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor + item ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä109***********************
+StatusStack:71 102 71 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item + item ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä110***********************
+StatusStack:136 102 71 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression + item ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä111***********************
+StatusStack:70 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä112***********************
+StatusStack:75 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä113***********************
+StatusStack:107 75 52 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:) expression ( + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä114***********************
+StatusStack:50 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä115***********************
+StatusStack:49 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä116***********************
+StatusStack:92 66 49 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression + item = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä117***********************
+StatusStack:48 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä118***********************
+StatusStack:58 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä119***********************
+StatusStack:80 58 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä120***********************
+StatusStack:80 58 45 37 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä121***********************
+StatusStack:36 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:assign_sentence inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä122***********************
+StatusStack:32 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä123***********************
+StatusStack:218 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_list inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä124***********************
+StatusStack:222 218 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä125***********************
+StatusStack:222 218 208 190 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä126***********************
+StatusStack:191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä127***********************
+StatusStack:209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä128***********************
+StatusStack:219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä129***********************
+StatusStack:219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä130***********************
+StatusStack:223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä131***********************
+StatusStack:225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä132***********************
+StatusStack:206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:{ A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä133***********************
+StatusStack:206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:{ A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä134***********************
+StatusStack:217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä135***********************
+StatusStack:37 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä136***********************
+StatusStack:45 37 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:= ID inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä137***********************
+StatusStack:53 45 37 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä138***********************
+StatusStack:50 45 37 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä139***********************
+StatusStack:49 45 37 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä140***********************
+StatusStack:48 45 37 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä141***********************
+StatusStack:58 45 37 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä142***********************
+StatusStack:80 58 45 37 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä143***********************
+StatusStack:80 58 45 37 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä144***********************
+StatusStack:36 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:assign_sentence inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä145***********************
+StatusStack:32 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä146***********************
+StatusStack:221 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_list inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä147***********************
+StatusStack:224 221 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä148***********************
+StatusStack:224 221 217 206 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä149***********************
+StatusStack:226 225 223 219 209 191 157 118 79 55 40 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_block A M else N sentence_block A ) expression ( if M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä150***********************
+StatusStack:33 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:if_sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä151***********************
+StatusStack:32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä152***********************
+StatusStack:44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä153***********************
+StatusStack:39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä154***********************
+StatusStack:54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä155***********************
+StatusStack:78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä156***********************
+StatusStack:76 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä157***********************
+StatusStack:72 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä158***********************
+StatusStack:71 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä159***********************
+StatusStack:70 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä160***********************
+StatusStack:100 70 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:<= add_expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä161***********************
+StatusStack:128 100 70 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:num <= add_expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä162***********************
+StatusStack:127 100 70 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor <= add_expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä163***********************
+StatusStack:126 100 70 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item <= add_expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä164***********************
+StatusStack:134 100 70 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression <= add_expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä165***********************
+StatusStack:117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä166***********************
+StatusStack:156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä167***********************
+StatusStack:156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä168***********************
+StatusStack:189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä169***********************
+StatusStack:206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:{ A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä170***********************
+StatusStack:206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:{ A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä171***********************
+StatusStack:217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä172***********************
+StatusStack:37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä173***********************
+StatusStack:45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:= ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä174***********************
+StatusStack:53 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä175***********************
+StatusStack:50 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä176***********************
+StatusStack:68 50 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:* factor = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä177***********************
+StatusStack:51 68 50 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:num * factor = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä178***********************
+StatusStack:50 68 50 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor * factor = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä179***********************
+StatusStack:94 68 50 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item * factor = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä180***********************
+StatusStack:49 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä181***********************
+StatusStack:48 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä182***********************
+StatusStack:58 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä183***********************
+StatusStack:80 58 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä184***********************
+StatusStack:80 58 45 37 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä185***********************
+StatusStack:36 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:assign_sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä186***********************
+StatusStack:32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä187***********************
+StatusStack:44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä188***********************
+StatusStack:37 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä189***********************
+StatusStack:45 37 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:= ID M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä190***********************
+StatusStack:53 45 37 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID = ID M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä191***********************
+StatusStack:50 45 37 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor = ID M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä192***********************
+StatusStack:49 45 37 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item = ID M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä193***********************
+StatusStack:48 45 37 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression = ID M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä194***********************
+StatusStack:58 45 37 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression = ID M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä195***********************
+StatusStack:80 58 45 37 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä196***********************
+StatusStack:80 58 45 37 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression = ID M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä197***********************
+StatusStack:36 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:assign_sentence M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä198***********************
+StatusStack:32 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä199***********************
+StatusStack:57 44 32 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_list M sentence inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä200***********************
+StatusStack:221 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_list inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä201***********************
+StatusStack:224 221 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä202***********************
+StatusStack:224 221 217 206 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä203***********************
+StatusStack:207 189 156 117 78 54 39 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_block A ) expression ( M while M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä204***********************
+StatusStack:34 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:while_sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä205***********************
+StatusStack:32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä206***********************
+StatusStack:44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä207***********************
+StatusStack:38 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:return M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä208***********************
+StatusStack:53 38 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:ID return M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä209***********************
+StatusStack:50 38 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:factor return M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä210***********************
+StatusStack:49 38 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:item return M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä211***********************
+StatusStack:48 38 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:add_expression return M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä212***********************
+StatusStack:47 38 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:expression return M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä213***********************
+StatusStack:59 47 38 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression return M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä214***********************
+StatusStack:59 47 38 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:; expression return M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä215***********************
+StatusStack:35 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:return_sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä216***********************
+StatusStack:32 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä217***********************
+StatusStack:57 44 32 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_list M sentence M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä218***********************
+StatusStack:57 44 32 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_list M sentence M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä219***********************
+StatusStack:57 44 32 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_list M sentence inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä220***********************
+StatusStack:31 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_list inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä221***********************
+StatusStack:43 31 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä222***********************
+StatusStack:43 31 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä223***********************
+StatusStack:43 31 28 26 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä224***********************
+StatusStack:25 22 18 16 13 9 7 4 3 3 1 0 
+SymbolStack:sentence_block ) parameter ( A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä225***********************
+StatusStack:15 13 9 7 4 3 3 1 0 
+SymbolStack:function_declare A M ID int declare declare N # 
+***********************Õ»¿Õ¼ä226***********************
+StatusStack:3 3 3 1 0 
+SymbolStack:declare declare declare N # 
+***********************Õ»¿Õ¼ä227***********************
+StatusStack:4 3 3 3 1 0 
+SymbolStack:int declare declare declare N # 
+***********************Õ»¿Õ¼ä228***********************
+StatusStack:7 4 3 3 3 1 0 
+SymbolStack:ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä229***********************
+StatusStack:9 7 4 3 3 3 1 0 
+SymbolStack:M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä230***********************
+StatusStack:13 9 7 4 3 3 3 1 0 
+SymbolStack:A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä231***********************
+StatusStack:16 13 9 7 4 3 3 3 1 0 
+SymbolStack:( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä232***********************
+StatusStack:21 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:int ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä233***********************
+StatusStack:24 21 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:ID int ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä234***********************
+StatusStack:20 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:param ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä235***********************
+StatusStack:19 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:parameter_list ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä236***********************
+StatusStack:18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä237***********************
+StatusStack:22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä238***********************
+StatusStack:22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä239***********************
+StatusStack:26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:{ ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä240***********************
+StatusStack:26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:{ ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä241***********************
+StatusStack:28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä242***********************
+StatusStack:37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä243***********************
+StatusStack:45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:= ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä244***********************
+StatusStack:53 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:ID = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä245***********************
+StatusStack:50 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:factor = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä246***********************
+StatusStack:49 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:item = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä247***********************
+StatusStack:66 49 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:+ item = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä248***********************
+StatusStack:51 66 49 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:num + item = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä249***********************
+StatusStack:50 66 49 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:factor + item = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä250***********************
+StatusStack:49 66 49 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:item + item = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä251***********************
+StatusStack:92 66 49 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:add_expression + item = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä252***********************
+StatusStack:48 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:add_expression = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä253***********************
+StatusStack:58 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:expression = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä254***********************
+StatusStack:80 58 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä255***********************
+StatusStack:80 58 45 37 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä256***********************
+StatusStack:36 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:assign_sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä257***********************
+StatusStack:32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä258***********************
+StatusStack:44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä259***********************
+StatusStack:38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä260***********************
+StatusStack:53 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:ID return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä261***********************
+StatusStack:50 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:factor return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä262***********************
+StatusStack:68 50 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:* factor return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä263***********************
+StatusStack:51 68 50 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:num * factor return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä264***********************
+StatusStack:50 68 50 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:factor * factor return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä265***********************
+StatusStack:94 68 50 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:item * factor return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä266***********************
+StatusStack:49 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:item return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä267***********************
+StatusStack:48 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:add_expression return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä268***********************
+StatusStack:47 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:expression return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä269***********************
+StatusStack:59 47 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:; expression return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä270***********************
+StatusStack:59 47 38 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:; expression return M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä271***********************
+StatusStack:35 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:return_sentence M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä272***********************
+StatusStack:32 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:sentence M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä273***********************
+StatusStack:57 44 32 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:sentence_list M sentence inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä274***********************
+StatusStack:31 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:sentence_list inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä275***********************
+StatusStack:43 31 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä276***********************
+StatusStack:43 31 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä277***********************
+StatusStack:43 31 28 26 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä278***********************
+StatusStack:25 22 18 16 13 9 7 4 3 3 3 1 0 
+SymbolStack:sentence_block ) parameter ( A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä279***********************
+StatusStack:15 13 9 7 4 3 3 3 1 0 
+SymbolStack:function_declare A M ID int declare declare declare N # 
+***********************Õ»¿Õ¼ä280***********************
+StatusStack:3 3 3 3 1 0 
+SymbolStack:declare declare declare declare N # 
+***********************Õ»¿Õ¼ä281***********************
+StatusStack:5 3 3 3 3 1 0 
+SymbolStack:void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä282***********************
+StatusStack:8 5 3 3 3 3 1 0 
+SymbolStack:ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä283***********************
+StatusStack:12 8 5 3 3 3 3 1 0 
+SymbolStack:M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä284***********************
+StatusStack:14 12 8 5 3 3 3 3 1 0 
+SymbolStack:A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä285***********************
+StatusStack:16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä286***********************
+StatusStack:18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä287***********************
+StatusStack:22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä288***********************
+StatusStack:22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä289***********************
+StatusStack:26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:{ ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä290***********************
+StatusStack:26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:{ ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä291***********************
+StatusStack:30 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:int { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä292***********************
+StatusStack:42 30 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID int { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä293***********************
+StatusStack:29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä294***********************
+StatusStack:41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä295***********************
+StatusStack:41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä296***********************
+StatusStack:30 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:int ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä297***********************
+StatusStack:42 30 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID int ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä298***********************
+StatusStack:29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä299***********************
+StatusStack:41 29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä300***********************
+StatusStack:41 29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä301***********************
+StatusStack:30 41 29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:int ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä302***********************
+StatusStack:42 30 41 29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID int ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä303***********************
+StatusStack:29 41 29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä304***********************
+StatusStack:41 29 41 29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä305***********************
+StatusStack:41 29 41 29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä306***********************
+StatusStack:56 41 29 41 29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:inner_declare ; inner_var_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä307***********************
+StatusStack:56 41 29 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:inner_declare ; inner_var_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä308***********************
+StatusStack:56 41 29 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:inner_declare ; inner_var_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä309***********************
+StatusStack:28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä310***********************
+StatusStack:37 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä311***********************
+StatusStack:45 37 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:= ID inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä312***********************
+StatusStack:51 45 37 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:num = ID inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä313***********************
+StatusStack:50 45 37 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:factor = ID inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä314***********************
+StatusStack:49 45 37 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:item = ID inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä315***********************
+StatusStack:48 45 37 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:add_expression = ID inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä316***********************
+StatusStack:58 45 37 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:expression = ID inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä317***********************
+StatusStack:80 58 45 37 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä318***********************
+StatusStack:80 58 45 37 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; expression = ID inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä319***********************
+StatusStack:36 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:assign_sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä320***********************
+StatusStack:32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä321***********************
+StatusStack:44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä322***********************
+StatusStack:37 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä323***********************
+StatusStack:45 37 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:= ID M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä324***********************
+StatusStack:51 45 37 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:num = ID M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä325***********************
+StatusStack:50 45 37 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:factor = ID M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä326***********************
+StatusStack:49 45 37 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:item = ID M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä327***********************
+StatusStack:48 45 37 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:add_expression = ID M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä328***********************
+StatusStack:58 45 37 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:expression = ID M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä329***********************
+StatusStack:80 58 45 37 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; expression = ID M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä330***********************
+StatusStack:80 58 45 37 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; expression = ID M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä331***********************
+StatusStack:36 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:assign_sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä332***********************
+StatusStack:32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä333***********************
+StatusStack:44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä334***********************
+StatusStack:37 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä335***********************
+StatusStack:45 37 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:= ID M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä336***********************
+StatusStack:51 45 37 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:num = ID M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä337***********************
+StatusStack:50 45 37 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:factor = ID M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä338***********************
+StatusStack:49 45 37 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:item = ID M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä339***********************
+StatusStack:48 45 37 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:add_expression = ID M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä340***********************
+StatusStack:58 45 37 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:expression = ID M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä341***********************
+StatusStack:80 58 45 37 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; expression = ID M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä342***********************
+StatusStack:80 58 45 37 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; expression = ID M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä343***********************
+StatusStack:36 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:assign_sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä344***********************
+StatusStack:32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä345***********************
+StatusStack:44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä346***********************
+StatusStack:37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä347***********************
+StatusStack:45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:= ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä348***********************
+StatusStack:53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä349***********************
+StatusStack:77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä350***********************
+StatusStack:114 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä351***********************
+StatusStack:111 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:factor ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä352***********************
+StatusStack:110 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:item ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä353***********************
+StatusStack:109 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:add_expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä354***********************
+StatusStack:116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä355***********************
+StatusStack:155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:, expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä356***********************
+StatusStack:114 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä357***********************
+StatusStack:111 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:factor , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä358***********************
+StatusStack:110 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:item , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä359***********************
+StatusStack:109 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:add_expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä360***********************
+StatusStack:116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä361***********************
+StatusStack:155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:, expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä362***********************
+StatusStack:114 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä363***********************
+StatusStack:153 114 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:( ID , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä364***********************
+StatusStack:114 153 114 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:ID ( ID , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä365***********************
+StatusStack:111 153 114 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:factor ( ID , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä366***********************
+StatusStack:110 153 114 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:item ( ID , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä367***********************
+StatusStack:109 153 114 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:add_expression ( ID , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä368***********************
+StatusStack:116 153 114 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:expression ( ID , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä369***********************
+StatusStack:187 153 114 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:argument_list ( ID , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä370***********************
+StatusStack:205 187 153 114 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:) argument_list ( ID , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä371***********************
+StatusStack:111 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:factor , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä372***********************
+StatusStack:110 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:item , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä373***********************
+StatusStack:109 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:add_expression , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä374***********************
+StatusStack:116 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:expression , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä375***********************
+StatusStack:188 155 116 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:argument_list , expression , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä376***********************
+StatusStack:188 155 116 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:argument_list , expression ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä377***********************
+StatusStack:115 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:argument_list ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä378***********************
+StatusStack:154 115 77 53 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:) argument_list ( ID = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä379***********************
+StatusStack:50 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:factor = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä380***********************
+StatusStack:49 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:item = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä381***********************
+StatusStack:48 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:add_expression = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä382***********************
+StatusStack:58 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:expression = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä383***********************
+StatusStack:80 58 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; expression = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä384***********************
+StatusStack:80 58 45 37 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; expression = ID M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä385***********************
+StatusStack:36 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:assign_sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä386***********************
+StatusStack:32 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä387***********************
+StatusStack:44 32 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä388***********************
+StatusStack:38 44 32 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:return M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä389***********************
+StatusStack:46 38 44 32 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; return M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä390***********************
+StatusStack:46 38 44 32 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:; return M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä391***********************
+StatusStack:35 44 32 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:return_sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä392***********************
+StatusStack:32 44 32 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä393***********************
+StatusStack:57 44 32 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence_list M sentence M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä394***********************
+StatusStack:57 44 32 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence_list M sentence M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä395***********************
+StatusStack:57 44 32 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence_list M sentence M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä396***********************
+StatusStack:57 44 32 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence_list M sentence inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä397***********************
+StatusStack:31 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence_list inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä398***********************
+StatusStack:43 31 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä399***********************
+StatusStack:43 31 28 26 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:} sentence_list inner_declare { ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä400***********************
+StatusStack:25 22 18 16 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:sentence_block ) parameter ( A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä401***********************
+StatusStack:17 14 12 8 5 3 3 3 3 1 0 
+SymbolStack:function_declare A M ID void declare declare declare declare N # 
+***********************Õ»¿Õ¼ä402***********************
+StatusStack:3 3 3 3 3 1 0 
+SymbolStack:declare declare declare declare declare N # 
+***********************Õ»¿Õ¼ä403***********************
+StatusStack:6 3 3 3 3 1 0 
+SymbolStack:declare_list declare declare declare declare N # 
+***********************Õ»¿Õ¼ä404***********************
+StatusStack:6 3 3 3 1 0 
+SymbolStack:declare_list declare declare declare N # 
+***********************Õ»¿Õ¼ä405***********************
+StatusStack:6 3 3 1 0 
+SymbolStack:declare_list declare declare N # 
+***********************Õ»¿Õ¼ä406***********************
+StatusStack:6 3 1 0 
+SymbolStack:declare_list declare N # 
+***********************Õ»¿Õ¼ä407***********************
+StatusStack:2 1 0 
+SymbolStack:declare_list N # 

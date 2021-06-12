@@ -21,5 +21,9 @@ int main()
 	PA.outputGotoToFile();
 	PA.LRAnalyse(LA.getRes());
 
+	IntermediateCode* iCode = PA.getIntermediateCode();
+	iCode->divideBaseBlocks(PA.getFunctionEnter());
+	iCode->outputBlocks();
+
 	return 0;
 }
