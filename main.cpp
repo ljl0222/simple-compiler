@@ -29,6 +29,7 @@ int main()
 	ObjectAnalyst OA;
 	OA.analyse(iCode->getFunctionBlocks());
 	OA.outputBlocksAttachInfo();
-
+	OA.productObjectCode_total();
+	OA.outputObjectCode();
 	return 0;
 }
