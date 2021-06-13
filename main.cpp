@@ -1,6 +1,7 @@
 #include "common.h"
 #include "LexAnalyst.h"
 #include "ParAnalyst.h"
+#include "ObjectAnalyst.h"
 
 int main()
 {
@@ -24,6 +25,10 @@ int main()
 	IntermediateCode* iCode = PA.getIntermediateCode();
 	iCode->divideBaseBlocks(PA.getFunctionEnter());
 	iCode->outputBlocks();
+
+	ObjectAnalyst OA;
+	OA.analyse(iCode->getFunctionBlocks());
+	OA.outputBlocksAttachInfo();
 
 	return 0;
 }

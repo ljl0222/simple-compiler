@@ -8,6 +8,7 @@ public:
 	string arg1;
 	string arg2;
 	string result;
+	Quaternion();
 	Quaternion(string, string, string, string);
 };
 
@@ -33,4 +34,5 @@ public:
 	Status outputCodeToFile();
 	Status divideBaseBlocks(vector<pair<int, string>> functionEnter);
 	Status outputBlocks();
+	map<string, vector<BaseBlock> > *getFunctionBlocks();
 };

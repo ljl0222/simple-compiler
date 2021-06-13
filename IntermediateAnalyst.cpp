@@ -1,6 +1,11 @@
 #include "common.h"
 #include "IntermediateAnalyst.h"
 
+Quaternion::Quaternion()
+{
+
+}
+
 Quaternion::Quaternion(string op, string arg1, string arg2, string res)
 {
 	this->op = op;
@@ -56,7 +61,7 @@ Status IntermediateCode::outputCodeToFile()
 
 Status IntermediateCode::divideBaseBlocks(vector<pair<int, string> > functionEnter)
 {
-	int L_temp = 0; // label的名字
+	int L_temp = 1; // label的名字
 
 	for (vector<pair<int, string> >::iterator i = functionEnter.begin(); i != functionEnter.end(); i++) 
 	{
@@ -211,5 +216,10 @@ Status IntermediateCode::outputBlocks()
 		cout << endl;
 	}
 	return OK;
+}
+
+map<string, vector<BaseBlock> >* IntermediateCode::getFunctionBlocks()
+{
+	return &functionBlocks;
 }
 
